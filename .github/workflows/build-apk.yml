@@ -27,8 +27,7 @@ jobs:
           
 
       - name: Unzip Android project
-        run: |
-          unzip -o Meghrong_Grocery_Android_Source.zip -d android-source
+        run: unzip -o Meghrong_Grocery_Android_Source.zip -d android-source
 
       - name: Set up Gradle
         uses: gradle/actions/setup-gradle@v4
